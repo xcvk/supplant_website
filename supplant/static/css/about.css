@@ -1,7 +1,7 @@
 .landing-wrapper {
   position: absolute;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   z-index: 2;
   background-color: var(--bg-color);
   display: flex;
@@ -15,14 +15,19 @@
 }
 
 .text {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   margin-left: 2rem;
+}
+
+.landing-content-wrapper {
+  height: 100%;
+  top: 0vh;
 }
 
 .background {
   position: absolute;
   top: 10vh;
-  right: -10vw;
+  right: 0vh;
   /* border: 3px solid black; */
   border-radius: 10px;
   padding: 2rem;
@@ -42,7 +47,7 @@
 }
 
 .main-wrapper {
-  height: 250vh;
+  height: 200vh;
 }
 
 .main-wrapper .width-wrapper {
@@ -76,4 +81,11 @@ header {
 
 .main-content p {
   margin-right: 1rem;
+}
+
+.text-scroll {
+  height: fit-content;
+  width: fit-content;
+  top: -20vh;
+  text-align: center;
 }
