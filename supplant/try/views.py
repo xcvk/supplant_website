@@ -1,6 +1,10 @@
 from django.shortcuts import render
 from .forms import GetInput
 from django.http import HttpResponse
+import sys
+
+sys.path.insert(1, './supplant-logic')
+from algorithm_placeholder import algor
 
 # Create your views here.
 def index(request):
@@ -10,7 +14,7 @@ def index(request):
     if answer.is_valid():
       data = answer.cleaned_data["to_fix"]
       form = GetInput({"to_fix":data})
-      result = data
+      result = algor(data)
     return render(request, 'try_filled.html', {"form":form, "result":result})
 
   else:
