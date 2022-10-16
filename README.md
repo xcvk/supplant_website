@@ -1,6 +1,6 @@
 # supplant-website
 
-## What it does
+## What it does 💭
 Supplant reads input from the user, and changes the language to be more inclusive.
 
 ## Our inspriation behind the project
