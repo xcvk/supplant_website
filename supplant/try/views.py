@@ -1,10 +1,7 @@
 from django.shortcuts import render
 from .forms import GetInput
 from django.http import HttpResponse
-import sys
-
-sys.path.insert(1, './supplant-logic')
-from algorithm_placeholder import algor
+from .algorithm.algorithm_placeholder import algor
 
 # Create your views here.
 def index(request):
