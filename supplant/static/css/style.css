@@ -8,6 +8,11 @@
   src: url(../fonts/NotoSansEthiopic-VariableFont_wdth,wght.ttf);
 }
 
+/* add body style to set some standards */
+body {
+  overflow-x: hidden;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;

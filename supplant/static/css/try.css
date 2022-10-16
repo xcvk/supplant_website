@@ -28,7 +28,7 @@ textarea {
   resize: none;
   height: 80vh;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: var(--ff-paragraph);
   font-size: 2rem;
   padding: 0.5rem 1rem;
