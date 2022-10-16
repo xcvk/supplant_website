@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Noto-Sans-Mono";
+  src: url(../fonts/NotoSansMono-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+  font-family: "Noto-Sans";
+  src: url(../fonts/NotoSansEthiopic-VariableFont_wdth,wght.ttf);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fg-color: rgb(96, 96, 96);
+  --bg-color: #E6E8E6;
+  --accent-color: ;
+  --ff-title: "Noto-Sans-Mono", "Courier";
+  --ff-paragraph: "Noto-Sans", "Arial";
+}
+
+h1, h2, h3 {
+  font-family: var(--ff-title);
+  color: var(--fg-color);
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p, a {
+  font-family: var(--ff-paragraph);
+  color: var(--fg-color);
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.width-wrapper {
+  width: 80%;
+  max-width: 70rem;
+  margin: 0 auto;
+}

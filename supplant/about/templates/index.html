@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supplant</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+
+<body>
+
+<div class="landing-wrapper">
+  <div class="width-wrapper">
+    <div class="landing">
+      <div class="landing-content-wrapper">
+        <div class="text">
+          <h1>Supplant</h1>
+          <h3>Three Word Description</h3>
+        </div>
+      </div>
+      <div class="background">
+        <h2><s>crazy</s>baffling</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main-wrapper">
+  <div class="width-wrapper">
+    <main>
+      <header>
+        <h2>About</h2>
+        <nav>
+          <ul>
+            <li><a href="{% url 'try' %}">Try It Yourself</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="main-content">
+        <p>LLorem ipsum dolor sit amet consectetur, adipisicing elit. In sit unde quaerat nesciunt id debitis qui, excepturi commodi ea hic, perspiciatis porro officiis repudiandae nemo numquam tempore sequi! Culpa, fugiat?
+        orem ipsum dolor sit amet consectetur, adipisicing elit. In sit unde quaerat nesciunt id debitis qui, excepturi commodi ea hic, perspiciatis porro officiis repudiandae nemo numquam tempore sequi! Culpa, fugiat?</p>
+        <img src="" height="400px" width="300px">
+      </div>
+    </main>
+  </div>
+</div>
+
+</body>
+</html>

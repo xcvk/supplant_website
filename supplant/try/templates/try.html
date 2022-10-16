@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supplant | Try</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/try.css' %}">
+</head>
+
+<body>
+
+<div class="width-wrapper">
+  <header>
+    <h1>Supplant</h1>
+    <nav>
+      <ul>
+        <li><a href="{% url 'about' %}">About</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<div class="main-wrapper">
+  <div class="width-wrapper">
+    <main>
+      <form method="POST" action="/try/">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" name="submit">Supplant</button>
+      </form>
+    </main>
+  </div>
+</div>
+
+</body>
+</html>

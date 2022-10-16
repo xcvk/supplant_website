@@ -1,0 +1,43 @@
+body {
+  background-color: var(--bg-color);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;  
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+form > * {
+  display: block;
+}
+
+textarea {
+  resize: none;
+  height: 80vh;
+  width: 100%;
+  border-radius: 10px;
+  font-family: var(--ff-paragraph);
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+form button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid black;
+}
