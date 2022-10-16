@@ -6,12 +6,12 @@ Supplant reads input from the user, and changes the language to be more inclusiv
 ## Our inspriation behind the project
 It's easy to accidentally discriminate against individuals, even without meaning to. We wanted to make a tool that helps people choose better words in everyday language to be more inclusive.
 
-## To Do List [x]
+## To Do List ✅
 
-[x] Replace discriminatory words with alternatives
-[x] Graphical user interface
-[ ] Include more context specific situations for words
-[ ] Use machine learning based language processing
+- [x] Replace discriminatory words with alternatives
+- [x] Graphical user interface
+- [ ] Include more context specific situations for words
+- [ ] Use machine learning based language processing
 
 ## Built with:
   - Django
