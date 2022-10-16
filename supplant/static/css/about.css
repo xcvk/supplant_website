@@ -76,7 +76,8 @@ header {
 
 .main-content {
   margin-top: 2rem;
-  display: flex;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .main-content p {
