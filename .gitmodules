@@ -1,3 +1,6 @@
 [submodule "supplant/try/supplant-logic"]
 	path = supplant/try/supplant-logic
 	url = git@github.com:allanhechen/supplant-logic.git
+[submodule "supplant/try/supplant_logic"]
+	path = supplant/try/supplant_logic
+	url = git@github.com:allanhechen/supplant_logic
